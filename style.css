@@ -1,0 +1,43 @@
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-left: none;  
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header,.footer{
+    background-color: black;
+}
+
+.header .container,.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container img{
+height: 100%;
+}
+
+.raw{
+    display: flex;
+    gap: 30px;
+}
+
+.article{
+    width: 33%;
+}
+
+.footer{
+    margin-top: 50px;
+}
